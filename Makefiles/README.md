@@ -55,7 +55,7 @@ Variables can only be strings. Here's an example of using them:
 
 ```Makefile
 var0 := ubuntu
-var1 = docker
+var1 := docker
 var2 := pull
 var3 := $(var1) $(var2)
 var4 := $(var3) $(var0)
